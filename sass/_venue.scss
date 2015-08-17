@@ -3,21 +3,21 @@
 // ================
 // START OF VENUE
 .event {
-	background:white;
+	background: linear-gradient(rgba(255, 204, 204, 0.9), rgba(255, 204, 204, 0.3)), url(http://backgroundsbase.com/wp-content/uploads/2014/10/vintage-flower-wallpaper-tumblr-quotes-image.jpg) no-repeat;
 	@include section;
 	position:relative;
 	border-top: 1px dotted slategray;
 }
 .event-h2 {
 	@include framed-header-h2;
-	background: white;
+	background: #fed1d1;
 	top:38px;
 	left:25%;
 	position:absolute;
 }
 .outer-venue-container {
 	// background: white;
-	border: 3px solid $news;
+	border: 3px solid white;
 	margin: 3%;
 	padding:3%;
 	text-align:center;
@@ -25,16 +25,17 @@
 .venue-container {
 	// background: gainsboro;
 	display:flex;
+	flex-wrap:wrap;
 	justify-content:center;
 	p {
 		@include event-p;
 	}
 }
 .venue {
-	background: $cielo;
+	background: rgba(228, 228, 245, 0.7);
 	flex-direction:row;
 	text-align:center;
-	padding:20% 5%;
+	padding:10% 5%;
 	margin:10px;
 	width: 40%;
 }

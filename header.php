@@ -19,7 +19,9 @@
 
 <body <?php body_class(); ?>>
 
+
 <header class="navigation">
+
   <div class="container clearfix">
     <div class="img-holder">
       <img src="<?php bloginfo('template_directory'); ?>/images/noun_183479_cc.png" alt="image">      
