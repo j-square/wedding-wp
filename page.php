@@ -1,8 +1,10 @@
 <?php get_header();  ?>
 
+
 <div class="main">
   <div class="container">
     <div class="content">
+
   <!-- ==========================
   ===== SPLASH IMAGE ========-->  
     <div class="hero"> 

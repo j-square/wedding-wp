@@ -21,7 +21,9 @@
 
 <body <?php body_class(); ?>>
 
+
 <header class="navigation">
+
   <div class="container clearfix">
         <h3 class="nav">Wedding Bells</h3>
     <!--<h1 class="nav">
